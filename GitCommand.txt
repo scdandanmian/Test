@@ -1,7 +1,7 @@
 1.git touth Hello.txt//创建一个Hello.txt文件
 2.git add  Hello.txt//添加到暂存区
 3.git commit Hello.txt -m "hello"//提交到当前分支( -m "hello"添加的信息)
-4.git staus  //查看仓库状态
+4.git status  //查看仓库状态
 5.git diff  //查看具体修改情况
 6.git  log  --pretty=oneline//查看提交历史( --pretty=oneline  在一行显示)
 7.git reset --hard HEAD^//回退到上个版本，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。
@@ -12,6 +12,8 @@
 12.git rm 'hello.txt' 用于删除一个文件
 13.ssh-keygen -t rsa -C "13771067018@163.com"//创建SSH Key：
 14.git remote add origin git@github.com:scdandanmian/Test.git//关联一个远程库
-15.git push -u origin master//推送当前分支
+15.git push -u origin master//第一次推送当前分支
 16.git clone git@github.com:scdandanmian/Test.git
-17.我是新家的
+17.git push //提交到当前分支
+18.git pull //更新项目
+19.rm -f ./.git/index.lock //解决没添加注视问题
