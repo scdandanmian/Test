@@ -1,0 +1,8 @@
+1.git touth Hello.txt//创建一个Hello.txt文件
+2.git add  Hello.txt//添加到仓库
+3.git commit Hello.txt -m "hello"//提交到仓库( -m "hello"添加的信息)
+4.git staus  //查看仓库状态
+5.git diff  //查看具体修改情况
+6.git  log  --pretty=oneline//查看提交历史( --pretty=oneline  在一行显示)
+7.git reset --hard HEAD^//回退到上个版本，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。
+8.git --hard e19195d67c70//回复到指定版本
