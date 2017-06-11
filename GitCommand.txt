@@ -20,5 +20,7 @@
 20.git checkout -b dev//创建dev分支，然后切换到dev分支：==$ git branch dev, git checkout dev
 21.git branch//查看当前分支：
 22.git checkout master//切换到主分支
-23.git merge dev //删除dev分支
-24.我第2次修改了
+23.git merge dev //合并dev分支
+24.git branch -d dev//删除dev分支
+25.git git log --graph --pretty=oneline --abbrev-commit//用带参数的git log也可以看到分支的合并情况：
+
