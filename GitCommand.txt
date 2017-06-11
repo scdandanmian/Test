@@ -1,6 +1,6 @@
 1.git touth Hello.txt//创建一个Hello.txt文件
 2.git add  Hello.txt//添加到暂存区
-3.git commit Hello.txt -m "hello"//提交到当前分支( -m "hello"添加的信息)
+3.git commit Hello.txt -m "hello"//提交Hello.txt到当前分支( -m "hello"添加的信息)
 4.git status  //查看仓库状态
 5.git diff  //查看具体修改情况
 6.git  log  --pretty=oneline//查看提交历史( --pretty=oneline  在一行显示)
