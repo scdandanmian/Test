@@ -17,3 +17,6 @@
 17.git push //提交到当前分支
 18.git pull //更新项目
 19.rm -f ./.git/index.lock //解决没添加注视问题
+20.git checkout -b dev//创建dev分支，然后切换到dev分支：==$ git branch dev, git checkout dev
+21. git branch//查看当前分支：
+$
